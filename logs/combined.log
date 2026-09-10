@@ -1,0 +1,69 @@
+2026-09-10 11:57:13 [INFO]: MongoDB connected: ac-fgkojic-shard-00-02.rzr67sh.mongodb.net/test
+2026-09-10 11:57:36 [INFO]: MongoDB connected: ac-fgkojic-shard-00-00.rzr67sh.mongodb.net/test
+2026-09-10 11:57:36 [INFO]: Server running in development mode on port 5000
+2026-09-10 12:00:21 [INFO]: ::ffff:127.0.0.1 - - [10/Sep/2026:06:30:21 +0000] "POST /api/auth/login HTTP/1.1" 200 447 "-" "-"
+2026-09-10 12:00:21 [INFO]: ::ffff:127.0.0.1 - - [10/Sep/2026:06:30:21 +0000] "POST /api/auth/login HTTP/1.1" 200 460 "-" "-"
+2026-09-10 12:00:21 [INFO]: ::ffff:127.0.0.1 - - [10/Sep/2026:06:30:21 +0000] "POST /api/orders HTTP/1.1" 201 527 "-" "-"
+2026-09-10 12:00:22 [INFO]: ::ffff:127.0.0.1 - - [10/Sep/2026:06:30:22 +0000] "POST /api/auth/login HTTP/1.1" 200 447 "-" "-"
+2026-09-10 12:00:22 [INFO]: ::ffff:127.0.0.1 - - [10/Sep/2026:06:30:22 +0000] "POST /api/auth/login HTTP/1.1" 200 460 "-" "-"
+2026-09-10 12:00:22 [WARN]: POST /api/orders -> 400 Insufficient stock for 'Test Phone'. Available: 5, requested: 999.
+2026-09-10 12:00:22 [INFO]: ::ffff:127.0.0.1 - - [10/Sep/2026:06:30:22 +0000] "POST /api/orders HTTP/1.1" 400 96 "-" "-"
+2026-09-10 12:00:22 [INFO]: ::ffff:127.0.0.1 - - [10/Sep/2026:06:30:22 +0000] "POST /api/auth/login HTTP/1.1" 200 447 "-" "-"
+2026-09-10 12:00:22 [INFO]: ::ffff:127.0.0.1 - - [10/Sep/2026:06:30:22 +0000] "POST /api/auth/login HTTP/1.1" 200 460 "-" "-"
+2026-09-10 12:00:22 [INFO]: ::ffff:127.0.0.1 - - [10/Sep/2026:06:30:22 +0000] "POST /api/orders HTTP/1.1" 201 527 "-" "-"
+2026-09-10 12:00:22 [INFO]: ::ffff:127.0.0.1 - - [10/Sep/2026:06:30:22 +0000] "POST /api/auth/login HTTP/1.1" 200 454 "-" "-"
+2026-09-10 12:00:22 [WARN]: GET /api/orders/my/6aa24e7e789d0cc59be5d044 -> 404 Order not found.
+2026-09-10 12:00:22 [INFO]: ::ffff:127.0.0.1 - - [10/Sep/2026:06:30:22 +0000] "GET /api/orders/my/6aa24e7e789d0cc59be5d044 HTTP/1.1" 404 46 "-" "-"
+2026-09-10 12:00:23 [INFO]: ::ffff:127.0.0.1 - - [10/Sep/2026:06:30:23 +0000] "POST /api/auth/login HTTP/1.1" 200 447 "-" "-"
+2026-09-10 12:00:23 [INFO]: ::ffff:127.0.0.1 - - [10/Sep/2026:06:30:23 +0000] "POST /api/auth/login HTTP/1.1" 200 460 "-" "-"
+2026-09-10 12:00:23 [INFO]: ::ffff:127.0.0.1 - - [10/Sep/2026:06:30:23 +0000] "POST /api/orders HTTP/1.1" 201 527 "-" "-"
+2026-09-10 12:00:23 [INFO]: ::ffff:127.0.0.1 - - [10/Sep/2026:06:30:23 +0000] "PATCH /api/orders/6aa24e7f789d0cc59be5d05e/status HTTP/1.1" 200 671 "-" "-"
+2026-09-10 12:00:23 [INFO]: ::ffff:127.0.0.1 - - [10/Sep/2026:06:30:23 +0000] "POST /api/auth/login HTTP/1.1" 200 447 "-" "-"
+2026-09-10 12:00:23 [INFO]: ::ffff:127.0.0.1 - - [10/Sep/2026:06:30:23 +0000] "POST /api/auth/login HTTP/1.1" 200 460 "-" "-"
+2026-09-10 12:00:23 [INFO]: ::ffff:127.0.0.1 - - [10/Sep/2026:06:30:23 +0000] "POST /api/orders HTTP/1.1" 201 527 "-" "-"
+2026-09-10 12:00:23 [WARN]: PATCH /api/orders/6aa24e7f789d0cc59be5d07a/status -> 400 Cannot transition order from 'Pending' to 'Delivered'.
+2026-09-10 12:00:23 [INFO]: ::ffff:127.0.0.1 - - [10/Sep/2026:06:30:23 +0000] "PATCH /api/orders/6aa24e7f789d0cc59be5d07a/status HTTP/1.1" 400 84 "-" "-"
+2026-09-10 12:00:25 [INFO]: ::ffff:127.0.0.1 - - [10/Sep/2026:06:30:25 +0000] "POST /api/auth/login HTTP/1.1" 200 447 "-" "-"
+2026-09-10 12:00:25 [INFO]: ::ffff:127.0.0.1 - - [10/Sep/2026:06:30:25 +0000] "POST /api/categories HTTP/1.1" 201 315 "-" "-"
+2026-09-10 12:00:25 [INFO]: ::ffff:127.0.0.1 - - [10/Sep/2026:06:30:25 +0000] "POST /api/categories HTTP/1.1" 201 355 "-" "-"
+2026-09-10 12:00:25 [INFO]: ::ffff:127.0.0.1 - - [10/Sep/2026:06:30:25 +0000] "POST /api/categories HTTP/1.1" 201 396 "-" "-"
+2026-09-10 12:00:25 [INFO]: ::ffff:127.0.0.1 - - [10/Sep/2026:06:30:25 +0000] "GET /api/categories/tree HTTP/1.1" 200 857 "-" "-"
+2026-09-10 12:00:25 [INFO]: ::ffff:127.0.0.1 - - [10/Sep/2026:06:30:25 +0000] "POST /api/auth/login HTTP/1.1" 200 447 "-" "-"
+2026-09-10 12:00:26 [INFO]: ::ffff:127.0.0.1 - - [10/Sep/2026:06:30:26 +0000] "POST /api/categories HTTP/1.1" 201 315 "-" "-"
+2026-09-10 12:00:26 [WARN]: PATCH /api/categories/6aa24e821ca6850510b6ec31 -> 400 A category cannot be its own parent.
+2026-09-10 12:00:26 [INFO]: ::ffff:127.0.0.1 - - [10/Sep/2026:06:30:26 +0000] "PATCH /api/categories/6aa24e821ca6850510b6ec31 HTTP/1.1" 400 66 "-" "-"
+2026-09-10 12:00:26 [INFO]: ::ffff:127.0.0.1 - - [10/Sep/2026:06:30:26 +0000] "POST /api/auth/login HTTP/1.1" 200 447 "-" "-"
+2026-09-10 12:00:26 [INFO]: ::ffff:127.0.0.1 - - [10/Sep/2026:06:30:26 +0000] "POST /api/categories HTTP/1.1" 201 305 "-" "-"
+2026-09-10 12:00:26 [INFO]: ::ffff:127.0.0.1 - - [10/Sep/2026:06:30:26 +0000] "POST /api/categories HTTP/1.1" 201 351 "-" "-"
+2026-09-10 12:00:26 [WARN]: PATCH /api/categories/6aa24e821ca6850510b6ec3e -> 400 Invalid parent: cannot move a category under one of its own descendants.
+2026-09-10 12:00:26 [INFO]: ::ffff:127.0.0.1 - - [10/Sep/2026:06:30:26 +0000] "PATCH /api/categories/6aa24e821ca6850510b6ec3e HTTP/1.1" 400 102 "-" "-"
+2026-09-10 12:00:26 [INFO]: ::ffff:127.0.0.1 - - [10/Sep/2026:06:30:26 +0000] "POST /api/auth/login HTTP/1.1" 200 447 "-" "-"
+2026-09-10 12:00:26 [INFO]: ::ffff:127.0.0.1 - - [10/Sep/2026:06:30:26 +0000] "POST /api/categories HTTP/1.1" 201 305 "-" "-"
+2026-09-10 12:00:26 [INFO]: ::ffff:127.0.0.1 - - [10/Sep/2026:06:30:26 +0000] "POST /api/categories HTTP/1.1" 201 351 "-" "-"
+2026-09-10 12:00:26 [WARN]: DELETE /api/categories/6aa24e821ca6850510b6ec51 -> 400 Cannot delete a category that has child categories. Delete or reassign children first.
+2026-09-10 12:00:26 [INFO]: ::ffff:127.0.0.1 - - [10/Sep/2026:06:30:26 +0000] "DELETE /api/categories/6aa24e821ca6850510b6ec51 HTTP/1.1" 400 116 "-" "-"
+2026-09-10 12:00:28 [INFO]: ::ffff:127.0.0.1 - - [10/Sep/2026:06:30:28 +0000] "GET /api/products?category=6aa24e846b7475d87dc7aaeb HTTP/1.1" 200 987 "-" "-"
+2026-09-10 12:00:28 [INFO]: ::ffff:127.0.0.1 - - [10/Sep/2026:06:30:28 +0000] "GET /api/products?category=6aa24e846b7475d87dc7aaf3 HTTP/1.1" 200 556 "-" "-"
+2026-09-10 12:00:28 [INFO]: ::ffff:127.0.0.1 - - [10/Sep/2026:06:30:28 +0000] "GET /api/products?minPrice=20&maxPrice=100&limit=1&page=1 HTTP/1.1" 200 517 "-" "-"
+2026-09-10 12:00:28 [INFO]: ::ffff:127.0.0.1 - - [10/Sep/2026:06:30:28 +0000] "POST /api/auth/login HTTP/1.1" 200 447 "-" "-"
+2026-09-10 12:00:28 [INFO]: ::ffff:127.0.0.1 - - [10/Sep/2026:06:30:28 +0000] "GET /api/products HTTP/1.1" 200 122 "-" "-"
+2026-09-10 12:00:28 [INFO]: ::ffff:127.0.0.1 - - [10/Sep/2026:06:30:28 +0000] "GET /api/products?status=inactive HTTP/1.1" 200 539 "-" "-"
+2026-09-10 12:00:30 [INFO]: ::ffff:127.0.0.1 - - [10/Sep/2026:06:30:30 +0000] "POST /api/auth/register HTTP/1.1" 201 466 "-" "-"
+2026-09-10 12:00:30 [INFO]: ::ffff:127.0.0.1 - - [10/Sep/2026:06:30:30 +0000] "POST /api/auth/register HTTP/1.1" 201 466 "-" "-"
+2026-09-10 12:00:30 [WARN]: POST /api/auth/register -> 409 An account with this email already exists.
+2026-09-10 12:00:30 [INFO]: ::ffff:127.0.0.1 - - [10/Sep/2026:06:30:30 +0000] "POST /api/auth/register HTTP/1.1" 409 72 "-" "-"
+2026-09-10 12:00:30 [INFO]: ::ffff:127.0.0.1 - - [10/Sep/2026:06:30:30 +0000] "POST /api/auth/register HTTP/1.1" 201 466 "-" "-"
+2026-09-10 12:00:30 [INFO]: ::ffff:127.0.0.1 - - [10/Sep/2026:06:30:30 +0000] "POST /api/auth/login HTTP/1.1" 200 459 "-" "-"
+2026-09-10 12:00:30 [INFO]: ::ffff:127.0.0.1 - - [10/Sep/2026:06:30:30 +0000] "POST /api/auth/register HTTP/1.1" 201 466 "-" "-"
+2026-09-10 12:00:30 [WARN]: POST /api/auth/login -> 401 Invalid email or password.
+2026-09-10 12:00:30 [INFO]: ::ffff:127.0.0.1 - - [10/Sep/2026:06:30:30 +0000] "POST /api/auth/login HTTP/1.1" 401 56 "-" "-"
+2026-09-10 12:00:30 [WARN]: GET /api/auth/me -> 401 Not authenticated. Please provide a valid token.
+2026-09-10 12:00:30 [INFO]: ::ffff:127.0.0.1 - - [10/Sep/2026:06:30:30 +0000] "GET /api/auth/me HTTP/1.1" 401 78 "-" "-"
+2026-09-10 12:11:15 [INFO]: ::1 - - [10/Sep/2026:06:41:15 +0000] "POST /api/auth/register HTTP/1.1" 201 466 "-" "PostmanRuntime/2.5.1"
+2026-09-10 12:11:49 [INFO]: ::1 - - [10/Sep/2026:06:41:49 +0000] "GET /health HTTP/1.1" 200 31 "-" "PostmanRuntime/2.5.1"
+2026-09-10 12:12:29 [INFO]: ::1 - - [10/Sep/2026:06:42:29 +0000] "POST /api/auth/login HTTP/1.1" 200 456 "-" "PostmanRuntime/2.5.1"
+2026-09-10 12:13:09 [INFO]: ::1 - - [10/Sep/2026:06:43:09 +0000] "GET /api/categories/tree HTTP/1.1" 200 2622 "-" "PostmanRuntime/2.5.1"
+2026-09-10 12:14:20 [WARN]: GET /api/products?search=galaxy&category=&minPrice=100&maxPrice=1000&sortBy=-price&page=1&limit=10 -> 400 Validation failed
+2026-09-10 12:14:20 [INFO]: ::1 - - [10/Sep/2026:06:44:20 +0000] "GET /api/products?search=galaxy&category=&minPrice=100&maxPrice=1000&sortBy=-price&page=1&limit=10 HTTP/1.1" 400 116 "-" "PostmanRuntime/2.5.1"
+2026-09-10 12:14:53 [INFO]: ::1 - - [10/Sep/2026:06:44:53 +0000] "GET /api/categories/ HTTP/1.1" 200 2875 "-" "PostmanRuntime/2.5.1"
+2026-09-10 12:15:54 [INFO]: ::1 - - [10/Sep/2026:06:45:54 +0000] "GET /api/products?search=galaxy&category=6aa24dc1e1af1bb39e339915&minPrice=100&maxPrice=1000&sortBy=-price&page=1&limit=10 HTTP/1.1" 200 582 "-" "PostmanRuntime/2.5.1"
